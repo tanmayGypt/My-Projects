@@ -1,0 +1,132 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url('pexels-asad-photo-maldives-1268855.jpg');
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    
+    height:100%;
+    justify-content: space-between;
+    align-items: 
+    
+    
+}
+.navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+  }
+
+.home{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    /* border:2px solid red; */
+    
+    
+
+
+}
+.home li{
+    font-size: 1.3rem;
+}
+.home li a {
+    text-decoration: none;
+    display: block;
+    
+    padding: 12px 32px;
+    margin: 9px 6px;
+    position: relative;
+    right: 167px;
+    border-radius: 23px;
+    background-color: rgb(236, 231, 231);;
+    
+
+  }
+  .home li a:hover, .home li a:active{
+    background-color: rgb(145, 145, 166) ;
+    text-decoration: underline;
+
+  }
+#logo img {
+    margin: 14px 17px;
+    padding: 0px 9px;
+    width: 44%;
+    height: 100%;
+    /* border:2px solid red; */
+}  
+.heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position:absolute;
+    left:0px;
+    font-weight: bold;
+   
+
+}
+
+.heading h2{
+    color: black;
+    text-decoration: underline;
+    font-size: 34px;
+    text-align: center;
+}
+.heading p{
+    color:#1e0808;
+    font-size: 19px;
+    width:77%;
+}
+
+.services{
+    display: flex;
+    position: relative;
+    top: 446px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    align-items: center;
+    background-color: #f0ebeb;
+}
+.boxes{
+    display: flex;
+
+width: 25%;
+flex-direction: column;
+align-items: center;
+text-align: center;
+background-color: bisque;
+border: 2px solid black;
+}
+.image1,.image2,.image3{
+    width: 112px;
+    height: 101px;
+}
+.boxesprimary{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.service-heading{
+    font-size: 37px;
+}    
+.head{
+    font-weight: bolder;
+}
+#searchbar{
+    position: relative;
+    left: -16px;
+    width: 210px;
+    height: 35px;
+    border-radius: 23px;
+}
+
