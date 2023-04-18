@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    body {
+        padding: 0 px;
+        margin: 0 px;
+        background: url('abs-1850926_1920.jpg');
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .left {
+        display: inline-block;
+       
+        position: absolute;
+        top: 20px;
+        left: 34px;
+        line-height: 15px;
+
+
+
+    }
+
+    .mid {
+        display: block;
+        
+        width: 45%;
+        margin: 12px auto;
+        position: relative;
+        top: 20px;
+
+
+    }
+
+    .right {
+        display: inline-block;
+       
+        position: absolute;
+        top: 20px;
+        right: 34px;
+
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    li {
+        display: inline;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+        font-size: 25px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: rgb(24, 98, 98);
+        text-decoration: underline;
+    }
+
+    .left img {
+        width: 50px;
+        position: relative;
+        left: 15px
+    }
+
+    .btn {
+        margin: 4px 8px;
+        padding: 4px 8px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover,
+    .btn:active {
+        text-decoration: underline;
+        color: rgb(24, 98, 98);
+    }
+    .formgroup input {
+        text-align: center;
+        width: 27%;
+        padding: 21px 56px;
+        margin: 18px 532px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        position: relative;
+        top: 154px;
+      }
+     #btn{
+        display: block;
+        width:40%;
+        margin:auto;
+        border-radius: 3px;
+     }
+     #btn {
+        display: block;
+        width: 35%;
+        margin: auto;
+        border-radius: 5px;
+        position: relative;
+        right: -32px;
+      }
+      #head {
+        font-size: 40px;
+        margin: auto;
+        position: relative;
+        right: -544px;
+        top: 127px;
+      }
+      .form {
+        position: relative;
+        left: -67px;
+      }
+     
+</style>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="body-builder-7320519_1280.png" alt="Error Loading">
+            <div>Fitness Club</div>
+        </div>
+        <div class="mid">
+            <nav class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </nav>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button><button class="btn">Message Us</button>
+
+        </div>
+    </header>
+    <div class="form">
+        <h2 id="head">Welcome To Fitness Club</h2>
+        <form action="#" class="formgroup">
+            <input type="text" name="Name" placeholder="Enter Your Name"><br>
+            <input type="text" name="Email" placeholder="Enter Email"><br>
+            <input type="number" name="Phone" placeholder="Enter Phone Number"><br>
+            <input type="text" name="Address" placeholder="Enter Address"><br>
+            <input type="number" name="Age" placeholder="Enter Your age">
+           <input type="date" name="" id="" placeholder="Enter Your Date of birth">
+
+            <input type="button" value="Submit" id="btn">
+            
+
+        </form>
+    </div>
+</body>
+
+</html>
